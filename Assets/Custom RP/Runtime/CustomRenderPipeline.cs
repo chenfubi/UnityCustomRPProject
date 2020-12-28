@@ -3,6 +3,9 @@ using UnityEngine.Rendering;
 
 public class CustomRenderPipeline : RenderPipeline
 {
+    public CustomRenderPipeline () {
+        GraphicsSettings.useScriptableRenderPipelineBatching = true;
+    }
     CameraRenderer renderer = new CameraRenderer();
     protected override void Render(ScriptableRenderContext context, Camera[] cameras)
     {
