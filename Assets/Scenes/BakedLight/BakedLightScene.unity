@@ -71,7 +71,7 @@ LightmapSettings:
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
-    m_MixedBakeMode: 0
+    m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 9572d84c1403d4e999a55bc7e9f92aaa,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -623,7 +623,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1e-45, y: -5.1152674e+27, z: 4.577e-41, w: 0.0000000721775}
+  m_BoundingSphereOverride: {x: 0, y: -3.1935095e+18, z: 4.5736e-41, w: 5.1134004e-37}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -761,6 +761,10 @@ LightProbeGroup:
   - {x: 0, y: 0, z: 0}
   - {x: -5, y: 1, z: -1}
   - {x: -5, y: 1, z: 1}
+  - {x: -4.7559013, y: -1.0544199, z: -2.878643}
+  - {x: -2.1993177, y: -1.1510776, z: -2.3017325}
+  - {x: -2.3035116, y: -1.0874532, z: -4.47927}
+  - {x: -4.146261, y: -1.0812, z: -3.7237186}
   m_Dering: 1
 --- !u!4 &708820137
 Transform:
